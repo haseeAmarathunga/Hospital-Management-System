@@ -18,7 +18,7 @@
 <div id="header" >
     </br>
     </br>
-    <h1 style="text-align: center;">Hospital System Login</h1>
+    <h1 style="text-align: center;">Hospital System Login</h1> <!--title-->
     
 </div>
 
