@@ -18,7 +18,7 @@ session_start();
 
 
 
-//connecting database
+//connecting to database
 $db = mysqli_connect("localhost","root", "","hospital_sys") or die("Error connecting to database");
 
 
@@ -35,7 +35,7 @@ if(isset($_POST['discharge-btn'])){
   
 
     } 
-
+	//query for select all from patient table that ordered by PID
 $query = "SELECT * FROM patient ORDER BY pid";
 $result  = $db->query($query);
 $result1 = mysqli_query($db, $query);
