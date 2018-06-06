@@ -50,14 +50,14 @@ if(isset($_POST['rem-test-btn'])){
   
 
     } 
-
+//run sql query and asign to query var
 $query = "SELECT * FROM tests ORDER BY test_id";
 $result  = $db->query($query);
 $result1 = mysqli_query($db, $query);
 
 
 $db->close();
-
+//close database
 ?>
 
 <div style="column-count: 2">
