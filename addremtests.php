@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Design by Hasee Amarathunga -->
 <html>
 <head>
 	<title>Add / Remove Tests From Patients</title>
@@ -111,3 +112,4 @@ $db->close();
 
 </body>
 </html>
+
