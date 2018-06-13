@@ -44,10 +44,11 @@ session_start();
 //connecting database
 $db = mysqli_connect("localhost","root", "","hospital_sys") or die("Error connecting to database");
 
-
+//define the sql query
 $query = "SELECT * FROM patient ORDER BY pid";
 $result  = $db->query($query);
-$result1 = mysqli_query($db, $query);
+ 
+$result1 = mysqli_query($db, $query);// run mysql Query
 
 
 $db->close();
