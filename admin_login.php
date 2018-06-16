@@ -19,9 +19,9 @@
       
       $count = mysqli_num_rows($result);
       
-      // If result matched $myusername and $mypassword, table row must be 1 row
+      // If result matched $myusername and $mypassword, table row must be 1 row or more  
 		
-      if($count == 1) {
+      if($count >= 1) {
          
          $_SESSION['login_user'] = $myusername;
          
@@ -56,7 +56,7 @@
       
    </head>
    
-   <body style="background-color: #006064;">
+   <body style="background-color: #005864;">
 
       <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
