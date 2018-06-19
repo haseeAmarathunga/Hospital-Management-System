@@ -19,7 +19,7 @@ session_start();
 
 
 
-//connecting database
+//connecting database with php
 $db = mysqli_connect("localhost","root", "","hospital_sys") or die("Error connecting to database");
 
 
