@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+//DoctorsHome page
 <html>
 <head>
 	<title>Doctors</title>
@@ -40,7 +41,7 @@
 <?php
 session_start();
 
-//connecting database
+//connecting to database
 $db = mysqli_connect("localhost","root", "","hospital_sys") or die("Error connecting to database");
 
 
